@@ -1,0 +1,88 @@
+.title__network .boton {
+  height: 60px;
+  width: 60px;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-out;
+}
+.title__network .boton:hover {
+  width: 200px;
+}
+.title__network .boton .title__network__item {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  text-align: center;
+  transition: all 0.3s ease-out;
+}
+.title__network .boton:nth-child(1):hover .title__network__item {
+  background: linear-gradient(40deg, #707070 10%, #08080f);
+  color: #fff;
+}
+.title__network .boton:nth-child(2):hover .title__network__item {
+  background: linear-gradient(40deg, #132aaa 10%, #030b63);
+  color: #fff;
+}
+.title__network .boton:nth-child(3):hover .title__network__item {
+  background: linear-gradient(30deg, #3040e6 10%, #d41356, #e74f31, #f0ce6c);
+  color: #fff;
+}
+.title__network .boton:nth-child(4):hover .title__network__item {
+  background: linear-gradient(40deg, #565b8b 10%, #233f8d);
+  color: #fff;
+}
+.title__network .boton i {
+  font-size: 25px;
+  line-height: 60px;
+}
+.title__network .boton span {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+}
+@media (max-width: 425px) {
+  .title__network .boton {
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+  }
+  .title__network .boton:hover {
+    width: 130px;
+  }
+  .title__network .boton .title__network__item {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    line-height: 40px;
+    text-align: center;
+    transition: all 0.3s ease-out;
+  }
+  .title__network .boton i {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .title__network .boton span {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 40px;
+    margin-left: 10px;
+  }
+}
+@media (min-width: 768px) {
+}

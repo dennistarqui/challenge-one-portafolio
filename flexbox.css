@@ -26,6 +26,10 @@
   gap: 40px;
   padding: 10px;
   padding-right: 100px;
+  /* position: fixed;
+  top: 0;
+  background-color: #333;
+  z-index: 1000; */
 }
 
 /* Sección del Header/Title/Hero */
@@ -71,10 +75,14 @@
   padding-left: 2vw;
 }
 .about__container h3 {
+  padding-bottom: 5px;
   font-size: 30px;
 }
 .about__container p {
   font-size: 16px;
+  padding-bottom: 15px;
+}
+.about__paragraph {
 }
 
 /* <!-- Sección de Skills --> */
@@ -292,6 +300,19 @@
 .formcontato__form button:hover {
   background-color: #0056b3;
 }
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 100%;
+  height: 102px;
+}
+.footer__rodape p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 @media (min-width: 1200px) {
   .title__network {
@@ -412,6 +433,19 @@
   .experience__info h3 {
     font-size: 16px;
   }
+
+  /* <!-- Sección de Contacto --> */
+
+  .formcontato__img {
+    display: none;
+  }
+  .formcontato__title {
+    font-size: 22px;
+    font-weight: 900;
+  }
+  .formcontato__subtext {
+    font-size: 16px;
+  }
 }
 /* mobile */
 
@@ -491,5 +525,14 @@
   .experience__img {
     width: 296px;
     /* height: 144px; */
+  }
+
+  /* <!-- Sección de Contacto --> */
+
+  .formcontato {
+    border: none;
+  }
+  .formcontato__form {
+    width: 270px;
   }
 }
